@@ -1,0 +1,23 @@
+.item {
+  list-style: none;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 10px;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: hsl(240, 79%, 72%);
+  border: none;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: rgb(179, 229, 43);
+}
